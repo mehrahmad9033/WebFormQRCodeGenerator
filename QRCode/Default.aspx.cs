@@ -20,9 +20,9 @@ namespace QRCode
         {
             if (!IsPostBack)
             {
-
+                //===
             } 
-        }
+        }     
         private void GenerateCode(string name)
         {
             var writer = new BarcodeWriter();
